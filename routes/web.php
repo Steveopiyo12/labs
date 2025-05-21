@@ -20,3 +20,5 @@ Route::get('/authentication',function(){
     return view('authentication');
 
 });
+Route::get('/pay', function () {
+    return view('payment-system');
